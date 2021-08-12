@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\javascript.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\test.css" />
+  </ItemGroup>
+
+</Project>
